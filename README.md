@@ -1,0 +1,2 @@
+# SwiftUIBatteryState
+SwiftUI项目中怎么监听设备的实时电量变化
