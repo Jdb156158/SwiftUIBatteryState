@@ -50,6 +50,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            RingView()
             Text("batteryState: \(model.batteryState)")
             Text("batteryLevel: \(model.batteryLevel)")
             Text("batteryContainer: \(model.batteryContainer)")

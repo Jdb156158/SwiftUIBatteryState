@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07606CDD259D9799003B76E7 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07606CDC259D9799003B76E7 /* RingView.swift */; };
 		077A22A5259C21C00017F9AA /* batteryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077A22A4259C21C00017F9AA /* batteryService.swift */; };
 		07B825D525904E9F0060A6CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B825D425904E9F0060A6CA /* AppDelegate.swift */; };
 		07B825D725904E9F0060A6CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B825D625904E9F0060A6CA /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07606CDC259D9799003B76E7 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		077A22A4259C21C00017F9AA /* batteryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = batteryService.swift; sourceTree = "<group>"; };
 		07B825D125904E9F0060A6CA /* SwiftUIBatteryState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBatteryState.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B825D425904E9F0060A6CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				07B825D625904E9F0060A6CA /* SceneDelegate.swift */,
 				07B825D825904E9F0060A6CA /* ContentView.swift */,
 				077A22A4259C21C00017F9AA /* batteryService.swift */,
+				07606CDC259D9799003B76E7 /* RingView.swift */,
 				07B825DA25904EA20060A6CA /* Assets.xcassets */,
 				07B825DF25904EA20060A6CA /* LaunchScreen.storyboard */,
 				07B825E225904EA20060A6CA /* Info.plist */,
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07606CDD259D9799003B76E7 /* RingView.swift in Sources */,
 				07B825D525904E9F0060A6CA /* AppDelegate.swift in Sources */,
 				07B825D725904E9F0060A6CA /* SceneDelegate.swift in Sources */,
 				07B825D925904E9F0060A6CA /* ContentView.swift in Sources */,
