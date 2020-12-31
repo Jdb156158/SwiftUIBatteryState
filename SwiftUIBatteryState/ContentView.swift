@@ -11,6 +11,8 @@ class Model: ObservableObject {
     
     @Published var batteryLevel: Float = 0.00
     @Published var batteryState: String = "未知"
+    @Published var batteryContainer: String = "未知"
+    @Published var batteryPower: String = "未知"
     
     init() {
 
@@ -26,6 +28,16 @@ class Model: ObservableObject {
             print(leve)
             self.batteryLevel = leve
         }
+        
+        helper.batteryContainerResults = { (container) in
+            print(container)
+            self.batteryContainer = container
+        }
+        
+        helper.batteryPowerResults = { (power) in
+            print(power)
+            self.batteryPower = power
+        }
 
     }
     
@@ -40,6 +52,8 @@ struct ContentView: View {
         VStack {
             Text("batteryState: \(model.batteryState)")
             Text("batteryLevel: \(model.batteryLevel)")
+            Text("batteryContainer: \(model.batteryContainer)")
+            Text("batteryPower: \(model.batteryPower)")
         }
     }
 }
